@@ -65,46 +65,46 @@
 
 // Belgilarni topish
 
-// let soz = prompt("nmadur yozing")
-// let a = true
-// let soniP = 0
-// let soniM = 0
-// let soniB = 0
-// let soniK = 0
-// for (let i = 0; i < soz.length; i++) {
+let soz = prompt("nmadur yozing")
+let a = true
+let soniP = 0
+let soniM = 0
+let soniB = 0
+let soniK = 0
+for (let i = 0; i < soz.length; i++) {
 
-//     for (let j = 0; i > j; j++) {
-//         if (soz[i] == "+") {
-//             soniP += 1
-//             a = false
-//             console.log(soz[i], "bu ishora", soniP, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
-
-
-//         } else if (soz[i] == "-") {
-//             soniM += 1
-//             a = false
-//             console.log(soz[i], "bu ishora", soniM, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
-
-//         } else if (soz[i] == "*") {
-//             soniK += 1
-//             a = false
-//             console.log(soz[i], "bu ishora", soniK, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
-
-//         } else if (soz[i] == "/") {
-//             soniB += 1
-//             a = false
-//             console.log(soz[i], "bu ishora", soniB, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
-
-//         }
-//     }
+    for (let j = 0; i > j; j++) {
+        if (soz[i] == "+") {
+            soniP += 1
+            a = false
+            console.log(soz[i], "bu ishora", soniP, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
 
 
+        } else if (soz[i] == "-") {
+            soniM += 1
+            a = false
+            console.log(soz[i], "bu ishora", soniM, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
 
-// }
+        } else if (soz[i] == "*") {
+            soniK += 1
+            a = false
+            console.log(soz[i], "bu ishora", soniK, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
+
+        } else if (soz[i] == "/") {
+            soniB += 1
+            a = false
+            console.log(soz[i], "bu ishora", soniB, "-bolib kelganda", i += 1, "-belgi bo'lib qatnashgan");
+
+        }
+    }
 
 
-// if (a) {
 
-//     console.log("kirtilgan matnda ishoralar yoq");
+}
 
-// }
+
+if (a) {
+
+    console.log("kirtilgan matnda ishoralar yoq");
+
+}
