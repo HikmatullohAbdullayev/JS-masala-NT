@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funksiya</title>
 </head>
+
 <body>
     <h1>Funksiya</h1>
+    <h2>Funksiyani elon qilish</h2>
+    <h2>Funksiyani elon qilishda <br>
+        1-(function) kalit sozi <br>
+        2-Funksiya nomi <br>
+        3-qavs ichida (parametr1, parametr2, ... parametrN)lar berish <br>
+        4-Funksiya scop ichiga kerakli kodni yozamiz <br>
+        5-Funksiyani chaqirish:>> 
+        Funksiya nomi (argument1, argument2,...argumentN)lar orqali chaqiriladi</h2>
+
+    <h3>Masalan:</h3>
+   <h2> <code> function meningFunksiyam(son1,son2) { <br>
+    if (son1 < son2) { <br>
+        console.log(`${son2}  ${son1}dan katta`);<br>
+    } else {<br>
+        console.log(`${son1}  ${son2}dan katta`);<br>
+    } <br>
+
+  
+} <br>
+
+meningFunksiyam(Math.round(Math.random()*100),Math.round(Math.random()*100))</code></h2>
+
+
+ <h2>    Funksiyani birir o'zgaruvchiga qiymat sifatida saqlab ishlatsa ham boladi Lekin bunay ishlatishda funksiyani elon qilishdan avval chaqirib bolmaydi</h2>
+
+<h2>Arrov Funksiyasi (arrow function)(=>)
+    bu funksiyani yozishni biroz oson usuli bolib bunda funksiya biron o'zgaruvchiga qiymat sifatida yoziladi va bunda (function) sozidan foydalanilmaydi</h2> 
+
+<h3>Masalan:  1-usul</h3>
+      <h2><code>  let funksiya = (son) => { <br>
+        return son +=20 <br>
+    } <br>
+    console.log(funksiya(10));</code></h2>
+
+<h2>Agar funksiya faqat bir parametrlik bo'lsa parametrdagi qavslarni yozmasa ham bo'ladi</h2>
+
+  <h2><code>  let funksiya = son => { <br>
+    return son +=20 <br>
+} <br>
+console.log(funksiya(10));</code></h2>
+
+
+<h2>Agar funksiyani tana qismi faqat bit qatorlik bo'lsa unga {} qavslar va tana qismini yozmasa ham bo'ladi</h2>
+
+    <h2><code>let funksiya = son => son+=10 <br>
+        console.log(funksiya(10));</code></h2>
+
+<h2>Agar funksiya hech qanday parametrga ega bolmasa unda () qavslarni bo'sh qoldirb yozsa ham boladi</h2>
+
+    <h2><code>let funksiya =  () => console.log("nma gap"); <br>
+        funksiya()</code></h2>
+
+<h3>    Agar tana qismi koproq bolsa</h3>
+
+    <h2><code>let funksiya = () => { <br>
+        console.log("nma gap"); <br>
+        console.log(12); <br>
+    } <br>
+    funksiya()</code></h2>
+
+<h2>Agar parametrlar 2 va undan kop bo'lsa parametrlar qavs ichiga yozilishi shart</h2>
+
+<h2><code>    let funksiya =(a,b,c) => { <br>
+    console.log(a+b+c); <br>
+} <br>
+funksiya(1,2,3)</code></h2>
     <script src="./main.js"></script>
 </body>
+
 </html>

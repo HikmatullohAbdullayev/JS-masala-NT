@@ -1,24 +1,4 @@
-//Funksiyani elon qilish
-//Funksiyani elon qilishda 
-// 1-(function) kalit sozi
-// 2-Funksiya nomi
-// 3-qavs ichida (parametr1, parametr2, ... parametrN)lar berish
-// 4-Funksiya scop ichiga kerakli kodni yozamiz
-// 5-Funksiyani chaqirish:=>> 
-//     Funksiya nomi (argument1, argument2,...argumentN)lar orqali chaqiriladi
 
-// Masalan:
-//    function meningFunksiyam(son1,son2) {
-//         if (son1<son2) {
-//             console.log(`${son2}  ${son1}dan katta`);
-//         } else {
-//             console.log(`${son1}  ${son2}dan katta`);
-//         }
-
-      
-//     }
-
-//     meningFunksiyam(Math.round(Math.random()*100),Math.round(Math.random()*100))
 
 
 
@@ -71,4 +51,62 @@
     // }
     // function6 (Math.round(Math.random()*99))
 
-    
+
+
+
+
+//Vazifa-7
+
+// let son = (son) => {
+//     let birlik = son % 10
+//     let onlik = (son - birlik) / 10
+//     let natija = birlik + onlik
+//     return natija
+// }
+//   console.log(son(23));
+
+// //Vazifa-8 
+// let son  = (num) =>{
+//     let birlik = num % 10
+//     let onlik = (num-birlik)/10
+//     let birlik2 =birlik*10
+//     let natija = birlik2+ onlik
+//     console.log(num);
+//     return natija
+// }
+// console.log(son(Math.round(Math.random()*99)));
+
+
+//Vazifa-9
+// let son = (num) => {
+//     let onlik = num % 100
+//     let yuzlik = num-onlik
+//     return yuzlik
+// }
+// console.log(son(723));
+
+//Vazifa-10
+// let son =( num)=>{
+//     let qoldiq = num % 100
+//     let birlik = qoldiq % 10
+//     let onlik = qoldiq-birlik
+//     let natija = `birliklar ${birlik}   onliklar ${onlik}`
+//     console.log(`berilgan son ${num}`);
+//     console.log(natija);
+// }
+// son(Math.round(Math.random()*999))
+
+
+// //Vazifa-11 
+// let son = (num) =>{
+//     let qoldiq =num % 100
+//     let yuzlik = (num-qoldiq)/100
+//     let birlik = qoldiq%10
+//     let onlik = (qoldiq- birlik)/10
+//     natija = yuzlik + onlik + birlik
+//     console.log(num);
+//     console.log(`${yuzlik} + ${onlik} + ${birlik} = ${natija}`);
+//     return natija
+// }
+// console.log(son(Math.round(Math.random()*999)))
+
