@@ -71,4 +71,21 @@
 // } else {
 //   console.log(false);
 // }
+
 // //Qale chibti 😂😂😂
+
+
+
+//Constructon funksiya
+
+// function Son(num1,num2,ishora){
+//     this.num1=num1;
+//    this.ishora=ishora;
+//    this.num2=num2;
+
+// }
+// let son = new Son(2,3,"+")
+// console.log(son);
+
+
+
