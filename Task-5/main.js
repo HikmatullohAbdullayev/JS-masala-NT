@@ -320,6 +320,8 @@
 // console.log(son(-2));
 // console.log(son(2));
 
+//Vazifa-3
+
 // let son = (num) => {
 //   if (num > 0) {
 //     num += 1;
@@ -337,30 +339,30 @@
 
 //Vazifa-4-5
 
-// let son =(num1,num2,num3)=>{
-//     if (num1 > 0 && num2 > 0 && num3 > 0) {
-//         return "musbat son yoq"
+let son =(num1,num2,num3)=>{
+    if (num1 > 0 && num2 > 0 && num3 > 0) {
+        return "manfiy son yoq"
 
-//     } else if (num1 > 0 && num2 > 0 && num3 < 0) {
-//         return "1 ta musbat 2ta manfiy son"
-//     }
-//      else if (num1 > 0 && num2 < 0 && num3 < 0) {
-//         return "2 ta musbat 1 ta manfiy son"
-//     }
-//      else if (num1 < 0 && num2 > 0 && num3 < 0) {
-//         return "2 ta musbat 1ta manfiy son"
-//     }
-//      else if (num1 < 0 && num2 < 0 && num3 > 0) {
-//         return "2 ta musbat 1ta manfiy son"
-//     }
-//      else if (num1 < 0 && num2 > 0 && num3 > 0) {
-//         return "1 ta musbat 2ta manfiy son"
-//     }
-//      else {
-//         return "3 ta musbat son"
-//     }
-// }
-// console.log(son(1,2,-3));
+    } else if (num1 > 0 && num2 > 0 && num3 < 0) {
+        return "1 ta manfiy 2ta musbat son"
+    }
+     else if (num1 > 0 && num2 < 0 && num3 < 0) {
+        return "2 ta manfiy 1 ta musbat son"
+    }
+     else if (num1 < 0 && num2 > 0 && num3 < 0) {
+        return "2 ta manfiy 1ta musbat son"
+    }
+     else if (num1 < 0 && num2 < 0 && num3 > 0) {
+        return "2 ta manfiy 1ta musbat son"
+    }
+     else if (num1 < 0 && num2 > 0 && num3 > 0) {
+        return "1 ta manfiy 2ta musbat son"
+    }
+     else {
+        return "3 ta manfiy son"
+    }
+}
+console.log(son(-1,2,3));
 
 
 //Vazifa-6
