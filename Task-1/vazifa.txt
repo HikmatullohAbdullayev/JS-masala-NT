@@ -1,0 +1,3 @@
+modullar bilan ishlash 
+2 ta js faylni ulab ishlatish
+setTimeOutni tushunib kelish
