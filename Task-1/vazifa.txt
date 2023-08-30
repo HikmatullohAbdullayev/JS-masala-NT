@@ -1,3 +1,12 @@
 modullar bilan ishlash 
 2 ta js faylni ulab ishlatish
 setTimeOutni tushunib kelish
+try-catch--finally tushunib kelish 
+try {
+    ...
+}catch(...){
+    ...
+}finally{
+    ...
+}
+shuni tushunib kelish 
