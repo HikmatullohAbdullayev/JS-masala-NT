@@ -1,0 +1,30 @@
+.box {
+    width: 500px;
+    height: 620px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+.color2 {
+    
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 50%;
+}
+.color1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 50%;
+}
+.color3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 50%;
+}
