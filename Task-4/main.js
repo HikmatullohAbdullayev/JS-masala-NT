@@ -8,11 +8,15 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   let obj = {};
 
-  for (let i of inputs) {
+  inputs.forEach ((i) => {
     obj[i.name] = i.value;
-  }
-  console.log(obj.name);
+  }) 
+  console.log(obj);
+
+  post.push({...obj})
+  console.log(post);
 });
+
 
 // function sdfdsf(params) {
 //   for (let i of inputs) {
