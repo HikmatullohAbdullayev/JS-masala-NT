@@ -1,10 +1,6 @@
 const btn = document.querySelector(".newItem");
-// btn.addEventListener('click', () => {
-
-// })
-
 let form = document.querySelector("form");
-let input = document.querySelectorAll(".input");
+let input = document.querySelectorAll(" input");
 let ul = document.querySelector(".lists");
 console.log();
 
@@ -16,24 +12,17 @@ form.addEventListener("submit", (event) => {
   let obj = {};
 
   input.forEach((item) => {
-      obj[item.name] = item.value;
-      user.push({...obj, id: Date.now()});
-      item.value = "";
-    
-    // user.push({...obj})
-    // console.log(user);
-    
-    // for(let i in obj)
+    obj[item.name] = item.value;
+    user.push({ ...obj, id: Date.now() });
+    item.value = "";
+  });
+    user.push({...obj})
+    console.log(user);
+
+
     ul.innerHTML += `<li>${obj.Familya}</li>`
-    
     ul.innerHTML += `<li>${obj.ism}</li>`
+  
+
 });
 
-
-
-//   console.log(obj.Familya);
-});
-
-
-
-// });
