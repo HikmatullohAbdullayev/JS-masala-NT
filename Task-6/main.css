@@ -1,0 +1,31 @@
+.form {
+    max-width: 500px;
+
+}
+.input {
+    width: 500px;
+    max-width: 100%;
+}
+.newBtn {
+}
+.box {
+    max-width: 500px;
+   gap: 10px;
+
+}
+.text {
+    display: inline;
+}
+.btnEdit {
+background-color: transparent;
+outline: transparent;
+border: transparent;
+}
+.material-symbols-outlined {
+}
+.btnDelete {
+    background-color:transparent;
+    outline: transparent;
+    border: transparent;
+    
+}
